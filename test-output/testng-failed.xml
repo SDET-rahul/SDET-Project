@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="seleniumWebdriverPractice.PriorityTestNG">
+        <methods>
+          <include name="amazonBrowserClose"/>
+          <include name="homePageFunctionality3"/>
+          <include name="homePageFunctionality2"/>
+          <include name="amazonBrowserOpen"/>
+          <include name="homePageFunctionality"/>
+        </methods>
+      </class> <!-- seleniumWebdriverPractice.PriorityTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
